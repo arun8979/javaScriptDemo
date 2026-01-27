@@ -23,3 +23,21 @@ DATA TYPE IN JS:
 2. non primitive data type(we have 1 or 2 data type non primitive)
     object(array,function)
 OBJECT : An object is a collection of key–value pairs
+
+NEXT DAY NEXT CHAPTER :->
+
+SINGLE LINE COMMENT AND MULTI LINE COMMENT  single lineuse (//). multi line(/*. */)
+OPERATOR IN JS:
+    we have 6 main type of operator in js
+    1.arithmatic operator
+    2. modulous operator
+    3. unary operator
+    4. assignment operator
+    5  comparison operator
+    6. logical operator
+1.arithmatic operator : +, - ,* ,/
+2.modulous operator : %(remander), **(exponatiation)
+3.unary operator : a++(post increment), ++a(pre increment), --a(pre decrement), a--(post decrement)
+4.assignment operator : =(assign), +=(plus and equal), -=, *=, /=,  **=,  %= 
+5.logical operator : &&(and), ||(or), !(not)
+6.comparison operator : ==(check only value), !=(not equal to), ===(check data type and value), !==(not equal to but check data type and value both),  >(grater then), <(lesss then), >=(grater then and equal), <=(less then and equal)
