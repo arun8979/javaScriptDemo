@@ -1,0 +1,25 @@
+java script
+JAVA SCRIPT IS JUST A PROGRAMING LENGUAGE WE USE IT TO JUST GIVE INSTRUCTION TO THE COMPUTER
+  input code -> COMPUTER  -> output
+Variables in js 
+  const. //Block scoped not reassign and redeclare
+  Var. //not use reassign
+  let. //Block scoped reassign,redeclare
+differnce between null and undefind 
+    null the programer assign an empty value of an Variables
+    undefind the programer declare the variables but value is not assign example :let a;
+variables ruls :
+    case senstive a and A is differnt
+    only letter doller digits and underscore is allow 
+    only underscore letter and doller sign allow to first character
+    reserved word can not be variable name
+we always use camel case  to defin our class name or variable name
+DATA TYPE IN JS:
+    we have two type of data type 
+    1. primitive data type
+    2. non primitive data type
+1. primitive data type(we have 7 primitive data type)
+    string,num,boolean,symbol,bigint,undefind,null
+2. non primitive data type(we have 1 or 2 data type non primitive)
+    object(array,function)
+OBJECT : An object is a collection of key–value pairs
