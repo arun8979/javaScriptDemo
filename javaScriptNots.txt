@@ -40,4 +40,54 @@ OPERATOR IN JS:
 3.unary operator : a++(post increment), ++a(pre increment), --a(pre decrement), a--(post decrement)
 4.assignment operator : =(assign), +=(plus and equal), -=, *=, /=,  **=,  %= 
 5.logical operator : &&(and), ||(or), !(not)
-6.comparison operator : ==(check only value), !=(not equal to), ===(check data type and value), !==(not equal to but check data type and value both),  >(grater then), <(lesss then), >=(grater then and equal), <=(less then and equal)
+6.comparison operator : ==(check only value), !=(not equal to), ===(check data type 
+    and value), !==(not equal to but check data type and value both),  >(grater then),
+    <(lesss then), >=(grater then and equal), <=(less then and equal)
+CONDITION IN JS=>
+IF,IF ELSE,ELSE IF,SWITCH,TERNORY
+
+
+DATE 28-JANUARY-2026 =>
+loops and string
+we have FIVE type of loop 
+1. FOR LOOP
+2. WHILE LOOP 
+3. DO WHILE
+4. FOR OF LOOP 
+5. FOR IN LOOP
+    Example of for loop or how to write for loop:
+for(let i=1; i<=10; i++){
+    your main code here who print
+}
+let i=1 = initialization
+i<=10  = condition and stoping
+i++ = updation
+    Example of while loop AND how to write:
+let i = 1;
+while(condition here){
+    logic
+    i++;
+}
+first out side the block scop initialize the value then condition set 
+then updation is inner side of block 
+    Example of do while loop AND how to write:
+do while loop means : at least one time running is compalsory
+do{
+    logic at least run mandotory
+    i++; updation
+}while(condition check);
+    Example of for of loop how to write:
+we use for of loop where we calculate the word in an string or in an array
+let m = "arunsinghrawat"
+for(let i of m){
+    console.log(i). here all the charector of an string is seprate
+}
+let m = "arunsinghrawat"
+let size = 0
+for(let i of m){
+    size++
+}
+console.log(size)
+
+
+
