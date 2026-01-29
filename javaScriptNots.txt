@@ -55,14 +55,14 @@ we have FIVE type of loop
 3. DO WHILE
 4. FOR OF LOOP 
 5. FOR IN LOOP
-    Example of for loop or how to write for loop:
+    =>Example of for loop or how to write for loop:
 for(let i=1; i<=10; i++){
     your main code here who print
 }
 let i=1 = initialization
 i<=10  = condition and stoping
 i++ = updation
-    Example of while loop AND how to write:
+    => Example of while loop AND how to write:
 let i = 1;
 while(condition here){
     logic
@@ -70,13 +70,14 @@ while(condition here){
 }
 first out side the block scop initialize the value then condition set 
 then updation is inner side of block 
-    Example of do while loop AND how to write:
+    =>Example of do while loop AND how to write:
 do while loop means : at least one time running is compalsory
 do{
     logic at least run mandotory
     i++; updation
 }while(condition check);
-    Example of for of loop how to write:
+   => Example of for of loop how to write:
+for of loop use to iterate the value of an object, string array etc
 we use for of loop where we calculate the word in an string or in an array
 let m = "arunsinghrawat"
 for(let i of m){
@@ -88,6 +89,22 @@ for(let i of m){
     size++
 }
 console.log(size)
+output : a,r,u,....
+    =>Example of for in loop in js :
+for in looop basicly use to iterate the index of an array
+let x = ["banana", "mango];
+for(let fruit in x){
+    console.log(fruit)
+}
+output : 0,1
 
 
+STRING IN JS ;>
+STRING ARE IMMUTABLE IN JS CAN NOT CHANGE EASILY
+
+ARRYS 29 JANUARY 2026 :
+array is a  ordered collection of element 
+let num = [2,3,5,1,4];
+num[0] = 2;  => num[0] called index and 2 is value of that index
+array is mutable in js can be change easily
 
