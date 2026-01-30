@@ -108,3 +108,6 @@ let num = [2,3,5,1,4];
 num[0] = 2;  => num[0] called index and 2 is value of that index
 array is mutable in js can be change easily
 
+
+FUNCTION IN JS 30 JAN 2026:
+

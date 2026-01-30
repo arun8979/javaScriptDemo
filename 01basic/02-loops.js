@@ -103,3 +103,15 @@ let fullName = prompt("enter your full name here");
 fullName = fullName.replace(/\s+/g,"")
 let userName = "@" + fullName  + fullName.length;
 console.log(userName)
+
+
+
+let input = 1234;
+let reverse = 0 ;
+while(input>0){
+    let digit = input % 10;
+    reverse = reverse * 10 + digit
+    input = Math.floor(input / 10);
+
+}
+console.log(reverse)
