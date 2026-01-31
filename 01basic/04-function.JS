@@ -173,3 +173,109 @@
 //     return tot * curr;
 // })
 // console.log(factorial);
+
+
+
+
+
+
+
+
+//=====================PRACTICE SET===========================
+// Problem 1
+// Convert the following normal function into an arrow function:
+
+// function square(num) {
+//   return num * num;
+// }
+///=============solution    
+/* let mul = num => {
+    return num * num
+}
+console.log(mul(2)) */
+
+
+//=====================PRACTICE SET===========================
+
+/* Write an arrow function that:
+Takes two numbers
+Returns the greater number*/
+
+///=============solution    
+
+
+//=====================PRACTICE SET===========================
+/*const fruits = ["apple", "banana", "mango"];
+Use forEach() to:
+Print each fruit with its index*/
+
+///=============solution    
+// const fruits = ["apple", "banana", "mango"];
+
+// fruits.forEach((fruit , idx, arr) => {
+//     console.log(idx ,fruit )
+// });
+
+
+//=====================PRACTICE SET===========================
+
+/*const numbers = [2, 4, 6, 8];
+Use forEach() to:
+Calculate the sum of all numbers
+Store the result in a variable */
+
+///=============solution    
+// const numbers = [2, 4, 6, 8];
+// let sum = 0;
+// numbers.forEach((num) =>{
+//     return sum = sum + num;
+// })
+// console.log(sum)
+
+
+//=====================PRACTICE SET===========================
+/* const numbers = [1, 2, 3, 4];
+Use map() to create a new array where:
+Each number is multiplied by 5 */
+///=============solution    
+
+/* const numbers = [1, 2, 3, 4];
+let mul = numbers.map(num => num *5);
+console.log(mul) */
+
+//=====================PRACTICE SET===========================
+/* const names = ["arun", "rohit", "neha"];
+Use map() to:
+Convert each name to uppercase*/
+
+///=============solution    
+/*const names = ["arun", "rohit", "neha"];
+
+let nam = names.map(n => n.toUpperCase());
+console.log(nam) */
+
+//=====================PRACTICE SET===========================
+
+/*const numbers = [10, 25, 30, 15, 40];
+Use filter() to:
+Get numbers greater than 20*/
+
+///=============solution    
+
+/*const numbers = [10, 25, 30, 15, 40];
+let f = numbers.filter((tot) =>
+    tot>20
+);
+console.log(f)*/
+
+//=====================PRACTICE SET===========================
+/*const users = [
+  { name: "Arun", age: 22 },
+  { name: "Ravi", age: 17 },
+  { name: "Neha", age: 19 }
+];
+Use filter() to:
+Get users whose age ≥ 18*/
+
+
+///=============solution    
