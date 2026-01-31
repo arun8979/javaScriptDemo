@@ -111,3 +111,36 @@ array is mutable in js can be change easily
 
 FUNCTION IN JS 30 JAN 2026:
 
+
+
+//=========================dom manipulation method
+1️⃣ DOM Selection Methods (Elements ko select karne ke)
+
+Total: 5 main methods
+getElementById()
+getElementsByClassName()
+getElementsByTagName()
+querySelector()
+querySelectorAll()
+2️⃣ DOM Content Change Methods
+Total: 3 common ways
+innerText
+textContnt
+innerHTML
+3️⃣ DOM CSS / Style Methods
+Total: 4 ways
+style
+setAttribute()
+classList
+className
+4️⃣ DOM Event Methods
+Total: 2 main methods
+addEventListener()
+removeEventListener()
+5️⃣ DOM Create / Remove Methods
+Total: 5 common methods
+createElement()
+appendChild()
+append()
+removeChild()
+remove()
