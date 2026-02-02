@@ -144,3 +144,16 @@ appendChild()
 append()
 removeChild()
 remove()
+prepend();
+after()
+before(). to a perticular tag before past 
+
+//==\===============\==========DOM MANUPULATION ========\==============\
+1️⃣ What is DOM?
+DOM (Document Object Model) is a tree-like structure of an HTML document.
+👉 JavaScript uses DOM to:
+Access HTML elements
+Change content
+Change styles
+Change attributes   
+Add / remove elements

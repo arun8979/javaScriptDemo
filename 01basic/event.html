@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button onclick="console.log('sdad') , alert('hey dear')">click</button> -->
+
+    <h1 style="background-color: green;" id="check"> yaah! my name is aru</h1>
+    <script>
+        let head = document.getElementById("check");
+        head.onclick = () =>{
+            console.log("yaah i am there")
+
+            head.style.backgroundColor = head.style.backgroundColor === "red" ? "blue" :"purple";
+            // if(head.style.backgroundColor === "green"){
+            //     head.style.backgroundColor = "pink"
+            // }else{
+            //     head.style.backgroundColor = "black"
+            // };
+        }
+    </script>
+</body>
+</html>
