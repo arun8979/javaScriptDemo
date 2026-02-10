@@ -157,3 +157,45 @@ Change content
 Change styles
 Change attributes   
 Add / remove elements
+
+
+Array methode//
+| Method      | Work                  |
+| ----------- | --------------------- |
+| `push()`    | Add at end            |
+| `pop()`     | Remove from end       |
+| `shift()`   | Remove from start     |
+| `unshift()` | Add at start          |
+| `splice()`  | Add / remove anywhere |
+| `slice()`   | Copy part of array    |
+| Method        | Work                   |
+| ------------- | ---------------------- |
+| `forEach()`   | Loop through elements  |
+| `map()`       | Create new array       |
+| `filter()`    | Filter elements        |
+| `reduce()`    | Reduce to single value |
+| `some()`      | Any element true?      |
+| `every()`     | All elements true?     |
+| `find()`      | Find first match       |
+| `findIndex()` | Find index             |
+| Method          | Work          |
+| --------------- | ------------- |
+| `includes()`    | Exists or not |
+| `indexOf()`     | First index   |
+| `lastIndexOf()` | Last index    |
+| Method       | Work           |
+| ------------ | -------------- |
+| `join()`     | Array → string |
+| `toString()` | Array → string |
+| `flat()`     | Flatten array  |
+| Method      | Work          |
+| ----------- | ------------- |
+| `sort()`    | Sort array    |
+| `reverse()` | Reverse array |
+| Method            | Work              |
+| ----------------- | ----------------- |
+| `concat()`        | Merge arrays      |
+| `fill()`          | Fill values       |
+| `copyWithin()`    | Copy inside array |
+| `Array.from()`    | Create array      |
+| `Array.isArray()` | Check array       |

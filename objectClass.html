@@ -1,0 +1,210 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ObjectClass</title>
+</head>
+<body>
+    <!-- <script>
+        let student = {
+            name : "arun",
+            age : 24,
+            marks : 65.23,
+            printMark(){
+                console.log("marks : ", this.marks);
+            }
+        }
+    </script> -->
+<!-- //======================================================= -->
+    <!-- <script>
+        let employee = {
+            caclTax(){
+                console.log("tax rate is 10%");
+            }
+        }
+        const karan = {
+            salery : 50000
+        }
+        const arun = {
+            salery : 40000
+        }
+        const arjun = {
+            salery : 10000
+        }
+        const aru = {
+            salery : 60000
+        }
+
+        karan.__proto__ = employee;
+        arjun.__proto__ = employee;
+        arun.__proto__ = employee;
+        aru.__proto__ = employee;
+    
+    </script> -->
+
+<!-- //======================================================= -->
+<!-- <script>
+    let student = {
+        attendance(){
+            console.log("he is parsent today")
+        }
+    }
+
+    let arun = {
+        prasent : "yes"
+    }
+
+    let aru = {
+        prasent : "yes"
+    }
+
+    let saru = {
+        prasent : "no",
+        attendance(){
+            console.log("she is absent today")
+        }
+    }
+    arun.__proto__ = student;
+    aru.__proto__ = student;
+    saru.__proto__ = student;
+
+
+</script> -->
+
+<!-- //======================================================= -->
+
+
+<!-- <script>
+    class ToyotaCar {
+        start(){
+            console.log("start");
+        }
+
+        stop(){
+            console.log("stop")
+        }
+
+        setBrand(brand){
+            this.brand = brand;
+        }
+    }
+
+    let fortuner = new ToyotaCar();
+    fortuner.setBrand = "fortuner";
+
+    let alto = new ToyotaCar();
+    alto.setBrand = "alto";
+
+</script> -->
+
+
+<!-- //======================================================= -->
+
+<!-- <script>
+    class student{
+
+        constructor(teacher, principle){
+            console.log("constructor is defin")
+            this.teacher = teacher;
+            this.principle = principle
+        }
+        class(){
+            console.log("regular")
+        }
+
+        medium(){
+            console.log("english medium")
+        }
+    }
+
+    let arun = new student("arun rwat", "saru rawat");
+    let student2 = new student("aru singh", "saru rawat");
+
+     -->
+    
+<!-- //======================================================= -->
+<!-- <script>
+class car{
+ constructor(){
+    console.log("front wheel drive ")
+ }
+
+stop(){
+    console.log("car start")
+}
+
+start(){
+    console.log("car start and ready to move")
+}
+
+gear(){
+    console.log("car have gear ")
+}
+}
+
+class toyota extends car{
+    create(){
+        console.log("make an engineer")
+    }
+}
+
+let cars = new toyota();
+</script>
+
+
+</script> -->
+
+<!-- //======================================================= -->
+<!-- <script>
+    let data = "secrate information"
+
+    class user{
+        constructor(name,email){
+            this.name = name;
+            this.email = email;
+        };
+
+            showUserData(){
+                console.log("data :" , data)
+            }
+        }
+        let student1 = new user("arun", "unreal.aru@gmsil.com");
+        let student2 = new user("aru", "real.aru@gmsil.com");
+        let teacher1 = new user("deepak", "deepak.aru@gmsil.com");
+
+
+    
+</script> -->
+
+
+<!-- //======================================================= -->
+
+<script>
+    let data = "secrate information"
+    
+     class user{
+        constructor(name,email){
+            this.name = name;
+            this.email = email;
+        };
+
+            showUserData(){
+                console.log("data :" , data)
+            }
+        }
+
+        class Admin extends user{
+            constructor(name,email){
+                super(name,email);
+            }
+            editData(){
+                data = "some new data"
+            }
+        }
+
+        let admin = new Admin("arun rwat", "rawat@gamil.com");
+        let student1 = new user("arun rwat", "rawat@gamil.com");
+
+</script>
+</body>
+</html>

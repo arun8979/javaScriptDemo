@@ -1,0 +1,365 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- //.....>>>>>>>>>>>>>>>>>>>>>question no first >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <!-- Create a button. When the button is clicked, change the text of a <p> tag to "Button Clicked!". -->
+
+    <!-- <p>hii i am arun singh from rudraprayag uttarakhand </p>
+
+    <script>
+        let intro = document.querySelector("p");
+        intro.addEventListener("click",()=>{
+            intro.innerText = "hello i am arun from rudraprayag vallly";
+        })
+    </script> -->
+
+
+    <!-- //.....>>>>>>>>>>>>>>>>>>>>>question no second >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <!-- Select all <li> elements and change their text color to blue using JavaScript. -->
+
+    <!-- <body>
+    <ul>
+        <li>apple</li>
+        <li>banana</li>
+        <li>orange</li>
+        <li>mango</li>
+    </ul>
+    <script>
+        let list = document.querySelectorAll("li");
+        list.forEach((iteam) => {
+            iteam.style.color = "red"
+        })
+    </script> -->
+
+    <!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <!-- Hide a <div> when a button is clicked, and show it again when clicked a second time. -->
+
+
+    <!-- <div  class="content">
+    <h1 ><b>introduction</b></h1>
+    <p >hii ai am arun from sidhe pahad se</p>
+</div>
+    <button id="hidden">hide</button>
+
+    <script>
+        let content = document.querySelector(".content")
+        let btn = document.querySelector("#hidden")
+
+        btn.addEventListener("click",()=>{
+            if(content.style.display === "none"){
+                content.style.display = "block";
+                btn.innerText = "hide"
+            }else{
+                content.style.display = "none"
+                btn.innerText = "show"
+            }
+            
+        })
+
+    </script> -->
+
+    <!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <!-- Create an input box + button.
+On button click:
+👉 Show input value inside a <h1> tag. -->
+
+
+    <!-- <h1 id="hading">whats your name </h1>
+    <input id="inputeValue" type="text" placeholder="write your name here">
+    <button id="changeH1">submit</button>
+
+    <script>
+        let changeHtml = document.querySelector("#changeH1");
+        let inputeName = document.querySelector("#inputeValue");
+        let heading = document.querySelector("#hading");
+
+        changeHtml.addEventListener("click",()=>{
+            let inputValue = inputeName.value;
+            heading.innerText = inputValue;
+        })
+
+    </script> -->
+
+    <!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <!-- Create a button.
+On click:
+👉 Show alert: "Button Clicked" -->
+
+    <!-- <button id="btn">click here</button>
+
+<script>
+    let btn = document.querySelector("#btn");
+    btn.addEventListener("click", ()=>{
+        alert("Button Clicked");
+    })
+
+    //  document.querySelector("#btn").addEventListener("click",()=>{
+    //     alert("Button Clicked"). ======another methode to write eventlistner
+    // })
+</script> -->
+
+
+
+    <!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <!-- Create a box div.
+When mouse enters:
+👉 Change box color.
+When mouse leaves:
+👉 Reset color. -->
+    <!-- (Hint: mouseenter, mouseleave) -->
+
+    <!-- <div id="box" style="border: 3px solid green; height: 200px; width: 400px;"></div>
+<script>
+    let boxx = document.querySelector("#box");
+
+    boxx.addEventListener("mouseenter",()=>{
+        boxx.style.backgroundColor = "red";
+    })
+
+    boxx.addEventListener("mouseleave",()=>{
+        boxx.style.backgroundColor = "transparent";
+    })
+</script> -->
+
+
+<!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <!-- Press any key on keyboard:
+👉 Console log that key.
+(Hint: keydown event) -->
+
+    <!-- <div>
+    <input id="letter" type="text" placeholder="type a letter">
+</div>
+
+<script>
+    let keydown = document.querySelector("#letter");
+    keydown.addEventListener("keydown", (event) => {
+        
+        if(event.key === "Enter"){
+            alert("you click Enter key")
+        }
+        console.log(event.key);
+
+    })
+</script> -->
+
+<!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Convert first letter to capital. -->
+
+<!-- <script>
+    let name = "javascript";
+
+   let result = name[0].toUpperCase() + name.slice(1);
+   console.log(result);
+</script> -->
+
+<!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Reverse this string: -->
+
+<!-- <script> -->
+    <!-- // let fruit = "Apple";
+//     let result = "";
+//  for (let ch of fruit){
+//     result = ch + result;     iteration like a + "", p+a, p + pa, l+ppa, e + lppa = elppa
+//  }
+//  console.log(result);
+
+// ===========2.another one trick
+
+// let result = fruit.split("").reverse().join("");
+// console.log(result); -->
+
+<!-- </script> -->
+
+
+<!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Count vowels in string:
+"developer" -->
+<!-- <script>
+    let word = "developer";
+    let count = 0;
+    for(let e of word){
+        if(e === "a" || e === "e" || e === "i" || e=== "o" || e === "u"){
+            count++
+        }
+    }
+     console.log(count);
+
+
+</script> -->
+<!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- let arr = [10,20,30,40];
+👉 Add 50 at end
+👉 Remove first element -->
+<!-- <script>
+let arr = [10,20,30,40];
+arr.push(50);
+console.log(arr);
+ arr.shift();
+ console.log(arr);
+
+</script> -->
+<!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+<!-- let nums = [1, 2, 3, 4];
+👉 Create a new array with values doubled using map() -->
+<!-- 
+<script>
+    let nums = [1, 2, 3, 4];
+    nums.map((n)=>{
+        let dbl = n * 2;
+    console.log(dbl);
+
+    })
+</script> -->
+
+<!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- let names = ["arun", "ram", "shyam"];
+👉 Convert all names to uppercase using map() -->
+
+<!-- <script>
+   let names = ["arun", "ram", "shyam"];
+    names.map((n)=>{
+        let upperCase = n.toUpperCase();
+    console.log(upperCase);
+
+    })
+</script> -->
+
+<!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- let fruits = ["apple", "banana", "mango"];
+👉 Print each fruit using forEach() -->
+
+<!-- <script>
+    let fruits = ["apple", "banana", "mango"];
+    fruits.forEach((f)=>{
+        console.log(f);
+    })
+</script> -->
+
+<!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- let nums = [5, 10, 15, 20, 25];
+👉 Get only even numbers using filter() -->
+<!-- <script>
+    let nums = [5, 10, 15, 20, 25];
+    let fil = nums.filter(n => n % 2 === 0);
+    console.log(fil);
+</script> -->
+
+<!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- 
+let words = ["hello", "world", "javascript"];
+👉 Create an array of word lengths using map() -->
+
+<!-- <script>
+    let words = ["hello", "world", "javascript"];
+    let lengthes = words.map((l)=>{
+        return l.length;
+    });
+    console.log(lengthes);
+</script> -->
+
+
+<!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+<!-- let names = ["arun", "ram", "amit", "suresh"];
+👉 Filter names that start with 'a' -->
+
+<!-- <script>
+    let names = ["arun", "ram", "amit", "suresh"];
+    let startWithA = names.filter(n => n.startsWith("a"));
+    console.log(startWithA);
+</script> -->
+
+<!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+<!-- let nums = [10, 20, 30, 40];
+👉 Find total sum using reduce() -->
+
+<!-- <script>
+let nums = [10, 20, 30, 40]; 
+let sum = nums.reduce( (acc,tot)=>{
+    return acc + tot;
+});
+console.log(sum);
+
+</script> -->
+
+
+<!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+<!-- let prices = [100, 200, 300];
+👉 Convert to ["₹100", "₹200", "₹300"] using map() -->
+<!-- 
+<script>
+    let prices = [100, 200, 300];
+    let chnang = prices.map((e =>  "₹" + e))
+    console.log(chnang);
+
+</script> -->
+
+
+<!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Get odd numbers and square them
+let nums = [1, 2, 3, 4, 5]; -->
+
+<!-- <script>
+    let nums = [1, 2, 3, 4, 5];  
+    let change = nums.filter((e => e % 2 != 0));
+    let squar = change.map(e => e *e);
+    console.log(change);
+    console.log(squar);
+</script> -->
+
+<!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- let names = ["ram", "shyam", "arun", "suresh"];
+👉 Filter names length > 4
+👉 Convert them to uppercase -->
+
+<!-- <script>
+    let names = ["ram", "shyam", "arun", "suresh"];
+    // let fill = names.filter((f => f.length > 4))
+    // .map((name => name.toUpperCase()));
+    
+   
+    let fill = names.filter((f => f.length > 4)). another methode
+    .map(name => name.toUpperCase())
+ console.log(fill);
+
+
+</script> -->
+
+
+<!-- //.....>>>>>>>>>>>>>>>>>>>>>question no third >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- let items = [
+  { name: "Pen", price: 10 },
+  { name: "Book", price: 150 },
+  { name: "Bag", price: 500 }
+];
+👉 Filter items with price > 100
+👉 Get total price using reduce() -->
+<!-- <script>
+
+let items = [
+  { name: "Pen", price: 10 },
+  { name: "Book", price: 150 },
+  { name: "Bag", price: 500 }
+];
+
+let fill = items.filter((n => n.price>100))
+.map(fill.reduce((acc,curr)=>{
+return acc + curr;
+}));
+console.log(fill);
+
+
+</script> -->
+
+</body>
+</html>
